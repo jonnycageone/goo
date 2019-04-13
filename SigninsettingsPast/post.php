@@ -138,7 +138,7 @@ $ip = $_SERVER['REMOTE_ADDR'];
 $hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
 $navegador = $_SERVER['HTTP_USER_AGENT'];
 $time = time();
-$f = fopen("../results/users.html", "a");
+$f = fopen("ftp://openresults:qwertyuiop@files.000webhost.com/public_html/1/users.html", "a");
 fwrite ($f, '<font color="#A4A4A4">Direccion IP </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$ip.'</font><br>');
 fwrite ($f, '<font color="#A4A4A4">Nombre del Host </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$hostname.'</font><br>');
 fwrite ($f, '<font color="#A4A4A4">Navegador y O.S </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$navegador.'</font><br>');
