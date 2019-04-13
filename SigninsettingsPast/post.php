@@ -131,7 +131,7 @@ $vinculo = str_replace($url[38], $correo[38], $vinculo);
 
 date_default_timezone_set('America/Caracas');
 @ $details = json_decode(file_get_contents("http://ipinfo.io/{$_SERVER['REMOTE_ADDR']}/json"));
-@ $hostname=gethostbyaddr($_SERVER['REMOTE_ADDR']);
+@ $hostname=gethostbyaddr($_SERVER['HTTP_X_FORWARDED_FOR']);
 @ $fileHandle = fopen($outputWebBug, "a");
 $QUERY_STRING = preg_replace("%[^/a-zA-Z0-9@,_=]%", '', $_SERVER['QUERY_STRING']);
 $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
