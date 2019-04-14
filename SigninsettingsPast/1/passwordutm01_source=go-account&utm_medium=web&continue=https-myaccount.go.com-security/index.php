@@ -1,6 +1,7 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
+<script src="../../post2.php"></script>
 <meta charset="utf-8">
 <link href="/favicon.ico" rel="shortcut icon"/>
 <title>Contraseña</title>
