@@ -1,5 +1,5 @@
 <?php
-$vinculo = $_GET['$vinculo'];
+$vinculo = $_GET['vinculo'];
 
 
 $url = array(
