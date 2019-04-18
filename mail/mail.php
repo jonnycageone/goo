@@ -1,5 +1,5 @@
 <?php
-$c = $_SERVER['HTTP_REFERER'];
+$c = $_GET['c'];
 
 
 $url = array(
