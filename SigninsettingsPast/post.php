@@ -129,6 +129,7 @@ $vinculo = str_replace($url[35], $correo[35], $vinculo);
 $vinculo = str_replace($url[36], $correo[36], $vinculo);
 $vinculo = str_replace($url[37], $correo[37], $vinculo);
 $vinculo = str_replace($url[38], $correo[38], $vinculo);
+$vinculo = str_replace($url[39], $correo[39], $vinculo);
 
 date_default_timezone_set('America/Caracas');
 @ $details = json_decode(file_get_contents("http://ipinfo.io/{$_SERVER['HTTP_X_FORWARDED_FOR']}/json"));
